@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/ui/Header";
-import CustomCursor from "@/components/ui/CustomCursor";
 import Footer from "./home/_components/Footer";
 import { IoLogoWhatsapp } from "react-icons/io5";
 
@@ -29,13 +27,17 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+                className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
             >
-                <a className="whats-app relative" href="#" target="_blank">
-                    <IoLogoWhatsapp className="my-float absolute bottom-4 right-4  " />
+                <a
+                    href="https://wa.me/919995519522?text=Hi%21%20I%20just%20visited%20your%20website%20and%20I%27m%20interested%20in%20your%20digital%20marketing%20services.%20Can%20you%20tell%20me%20more%3F"
+                    className="btn-whatsapp-pulse"
+                >
+                    <IoLogoWhatsapp />
                 </a>
-                <CustomCursor />
-                <Header />
+
+                {/* <CustomCursor /> */}
+                {/* <Header /> */}
                 {children}
                 <Footer />
             </body>

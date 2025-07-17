@@ -14,7 +14,7 @@ export default function Contact() {
     return (
         <main className="bg-[#12110c] text-[#f7f7f7]  flex items-center justify-center">
             <section className="w-full max-w-4xl px-4 py-20 text-center">
-                <h1 className="mt-8 sm:mt-10 text-2xl sm:text-3xl md:text-4xl lg:text-6xl medium-font text-center mb-4 sm:mb-6 ">
+                <h1 className="mt-8 sm:mt-10 text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-center mb-4 sm:mb-6 ">
                     Let&lsquo;s talk about your business
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl lg:text-xl book-font w-[80%] mx-auto text-center">
@@ -25,9 +25,9 @@ export default function Contact() {
 
                 <form
                     onSubmit={handleSubmit}
-                    className="mt-8 w-[70%] m-auto flex justify-center"
+                    className="mt-8 w-full sm:w-4/5 md:w-3/4 lg:w-2/3 xl:w-1/2 m-auto flex justify-center rounded-full overflow-hidden"
                 >
-                    <div className="flex w-full bg-[#f7f7f7] rounded-md overflow-hidden">
+                    <div className="flex w-full bg-[#f7f7f7] ">
                         <input
                             type="email"
                             placeholder="Enter your email"

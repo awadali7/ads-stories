@@ -4,7 +4,10 @@ import { motion } from "framer-motion";
 
 export default function Services() {
     return (
-        <section id="service" className="py-12 bg-[#f7f7f7]">
+        <section
+            id="service"
+            className="py-12 sm:py-14 md:py-16 lg:py-20 bg-[#f7f7f7]"
+        >
             <section className="wrapper">
                 {/* Animated Section Header */}
                 <motion.div
@@ -20,7 +23,7 @@ export default function Services() {
                         </span>
                     </button>
 
-                    <h1 className="mt-8 sm:mt-10 text-[#12110c] text-2xl sm:text-3xl md:text-4xl lg:text-6xl medium-font text-center mb-4 sm:mb-6 ">
+                    <h1 className="mt-8 sm:mt-10 text-[#12110c] text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-center mb-4 sm:mb-6 ">
                         Digital Marketing Solutions
                     </h1>
 

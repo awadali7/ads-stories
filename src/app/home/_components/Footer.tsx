@@ -13,10 +13,10 @@ export default function Footer() {
     return (
         <footer className="bg-[#12110c] text-gray-200 transition-shadow shadow-[0_1px_2px_0_rgba(60,64,67,0.3),0_1px_3px_1px_rgba(60,64,67,0.15)] pt-20">
             <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10 lg:gap-16">
                     {/* About Section */}
                     <div className="space-y-6">
-                        <h2 className="text-xl medium-font text-white">
+                        <h2 className="text-xl font-bold text-white">
                             Ads Stories Marketing
                         </h2>
                         <p className="text-sm book-font leading-relaxed">
@@ -59,7 +59,7 @@ export default function Footer() {
 
                     {/* Services Section */}
                     <div className="space-y-6">
-                        <h2 className="text-xl medium-font text-white">
+                        <h2 className="text-xl font-bold text-white">
                             Our Services
                         </h2>
                         <ul className="space-y-3 text-sm book-font">
@@ -142,7 +142,7 @@ export default function Footer() {
 
                     {/* Contact Section (Newsletter removed) */}
                     <div className="space-y-6">
-                        <h2 className="text-xl medium-font text-white">
+                        <h2 className="text-xl font-bold text-white">
                             Contact Us
                         </h2>
                         <div className="flex items-start space-x-3">

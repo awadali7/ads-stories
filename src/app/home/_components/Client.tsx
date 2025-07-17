@@ -1,15 +1,13 @@
 // File: app/page.tsx
-"use client"; // required for any client-side behavior (e.g. if you add animations later)
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 
-// ----------------------------------------
-// STEP 1: Define your client data model
-// ----------------------------------------
 type Client = {
     name: string;
-    logoSrc: string; // Path under /public/ for this client’s logo
+    logoSrc: string;
 };
 
 const clients: Client[] = [
@@ -17,12 +15,10 @@ const clients: Client[] = [
     { name: "Miko³", logoSrc: "/miko.svg" },
     { name: "boAt", logoSrc: "/boat.svg" },
     { name: "Cheesecake Factory", logoSrc: "/miko.svg" },
-
     { name: "Axio", logoSrc: "/axio.svg" },
     { name: "MoneyPlanned", logoSrc: "/moneyplanned.svg" },
     { name: "2070Health", logoSrc: "/health.svg" },
     { name: "Plural by Pine Labs", logoSrc: "/plural.svg" },
-
     { name: "MoneyPlanned (2)", logoSrc: "/moneyplanned.svg" },
     { name: "Cheesecake Factory (2)", logoSrc: "/miko.svg" },
     { name: "Axio (2)", logoSrc: "/axio.svg" },
@@ -32,9 +28,11 @@ const clients: Client[] = [
 export default function TrustedClientsPage() {
     return (
         <main className="bg-[#12110c] text-white min-h-screen">
-            {/* Wrapper for everything */}
-            <section className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20 lg:py-24">
-                {/* Animated Section Header */}
+            {/* give this section an ID so Header can detect it */}
+            <section
+                id="trusted-section"
+                className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20 lg:py-24"
+            >
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -48,7 +46,7 @@ export default function TrustedClientsPage() {
                         </span>
                     </button>
 
-                    <h1 className="mt-8 sm:mt-10 text-2xl sm:text-3xl md:text-4xl lg:text-6xl medium-font text-center mb-4 sm:mb-6 ">
+                    <h1 className="mt-8 sm:mt-10 text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-center mb-4 sm:mb-6">
                         Brands We’ve Helped Grow
                     </h1>
 
@@ -67,12 +65,10 @@ export default function TrustedClientsPage() {
                     variants={{
                         hidden: {},
                         visible: {
-                            transition: {
-                                staggerChildren: 0.1,
-                            },
+                            transition: { staggerChildren: 0.1 },
                         },
                     }}
-                    className="mt-8 sm:mt-10 md:mt-12 lg:mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 "
+                    className="mt-8 sm:mt-10 md:mt-12 lg:mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 md:gap-6"
                 >
                     {clients.map((client, idx) => (
                         <motion.div

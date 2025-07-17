@@ -42,11 +42,12 @@
     font-display: swap;
 }
 
-/* * {
-    margin: 0;
-    padding: 0;
-
-} */
+* {
+    scroll-behavior: smooth;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
 
 hr {
     border: 0;
@@ -62,9 +63,10 @@ hr {
 }
 
 body {
-    background: var(--background);
+    background: #12110c;
     color: var(--foreground);
     font-family: "roboto-flex";
+    scroll-behavior: smooth;
 }
 
 .nav-link-heading {
@@ -78,7 +80,10 @@ body {
 }
 
 .height-screen {
-    height: calc(100vh - 64px);
+    height: calc(100vh - 64px) !important;
+}
+.height-screen-min {
+    min-height: calc(100vh - 96px) !important;
 }
 
 .wrapper {
@@ -102,4 +107,68 @@ body {
 
 .my-float {
     margin-top: 16px;
+}
+
+.btn-whatsapp-pulse {
+    background: #25d366;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+    text-decoration: none;
+    z-index: 9999;
+    border-radius: 50%;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+    }
+    80% {
+        box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+    }
+}
+
+/* Infinite Scrolling Animations */
+@keyframes scroll-right {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animate-scroll-right {
+    animation: scroll-right 30s linear infinite;
+}
+
+.animate-scroll-left {
+    animation: scroll-left 30s linear infinite;
+}
+
+/* Pause animation on hover */
+.animate-scroll-right:hover,
+.animate-scroll-left:hover {
+    animation-play-state: paused;
 }

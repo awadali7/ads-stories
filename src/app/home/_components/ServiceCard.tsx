@@ -61,7 +61,7 @@ export default function ServiceCard() {
         <main className="min-h-screen ">
             <section className="max-w-7xl mx-auto px-4 py-12">
                 {/* 1-col mobile | 2-col @sm | 3-col @lg */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
                     {articles.map((article, idx) => (
                         <motion.div
                             key={idx}
