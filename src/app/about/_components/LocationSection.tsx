@@ -2,34 +2,26 @@ import React from "react";
 
 const locations = [
     {
-        name: "Location One",
+        name: "Alappuzha",
         address: [
-            "1234 Market Street,",
-            "Suite 500,",
-            "San Francisco, CA 94103",
+            "Amcw26/591,26/592,26/593, Ground Floor",
+            "Konginichudukadu, Jn, Thiruvambady, Thirumala,",
+            "Alappuzha, Kerala 688011",
         ],
-        url: "https://maps.app.goo.gl/3YUVc1eCVDqTBBgD6?g_st=iw",
-        embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019019688799!2d-122.4194151846817!3d37.7749297797597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5b0e6b1b%3A0x4a0b8b0b8b0b8b0b!2s1234%20Market%20St%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus",
+        url: "https://maps.app.goo.gl/PxFr6DuWNghA4VFv6",
+        embed: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3986.5221950789796!2d76.33475837508308!3d9.484222190596467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwMjknMDMuMiJOIDc2wrAyMCcxNC40IkU!5e1!3m2!1sen!2sin!4v1752862474963!5m2!1sen!2sin",
     },
     {
-        name: "Location Two",
-        address: [
-            "5678 Mission Street,",
-            "Suite 200,",
-            "San Francisco, CA 94110",
-        ],
-        url: "https://maps.app.goo.gl/aknGMjJTjgcsUKsr6?g_st=iw",
-        embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019019688799!2d-122.4194151846817!3d37.7597037797597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e2e2e2e2e2e%3A0x4a0b8b0b8b0b8b0b!2s5678%20Mission%20St%2C%20San%20Francisco%2C%20CA%2094110%2C%20USA!5e0!3m2!1sen!2sus!4v1680000000001!5m2!1sen!2sus",
+        name: "Jaipur",
+        address: ["G-12 capital high street , Jaipur"],
+        url: "https://maps.app.goo.gl/Wmen4QHyYmnUD4te8",
+        embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.6489577574735!2d75.85807799999999!3d26.799270699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc9d6f000be8f%3A0x96781e9898265140!2sRTech%20Capital%20Highstreet%20Jaipur!5e1!3m2!1sen!2sin!4v1752862697387!5m2!1sen!2sin",
     },
     {
-        name: "Location Three",
-        address: [
-            "9101 Van Ness Avenue,",
-            "Suite 300,",
-            "San Francisco, CA 94109",
-        ],
-        url: "https://g.co/kgs/MaUoM5y",
-        embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019019688799!2d-122.4194151846817!3d37.7899297797597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e3e3e3e3e3e%3A0x4a0b8b0b8b0b8b0b!2s9101%20Van%20Ness%20Ave%2C%20San%20Francisco%2C%20CA%2094109%2C%20USA!5e0!3m2!1sen!2sus!4v1680000000002!5m2!1sen!2sus",
+        name: "Maharashtra",
+        address: ["Citi Mall"],
+        url: "https://maps.app.goo.gl/1ykY5Ayu2dPPQCBS7",
+        embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.372894121446!2d72.83143869999999!3d19.138623499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63cd0ce884f%3A0x5a3f9df6a2063fc5!2sCiti%20Mall!5e1!3m2!1sen!2sin!4v1752862836063!5m2!1sen!2sin",
     },
 ];
 

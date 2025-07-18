@@ -8,12 +8,23 @@ const AboutPage = () => {
     return (
         <>
             <Header />
+            <section className="bg-[#12110c] py-12 sm:py-16 md:py-20">
+                <div className="max-w-2xl mx-auto px-4 sm:px-6 md:px-8 text-center">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white">
+                        About Us
+                    </h1>
+                    <p className="text-base sm:text-lg md:text-xl book-font text-gray-300 mb-8">
+                        Learn more about our story, our mission, and what drives
+                        us to help brands grow through digital innovation.
+                    </p>
+                </div>
+            </section>
             <section className="bg-[#f7f7f7] py-12 sm:py-14 md:py-16 lg:py-20">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 px-4 sm:px-6 md:px-8 lg:px-12">
                     {/* Image */}
                     <div className="w-full md:w-1/2 flex justify-center">
                         <Image
-                            src="/goals2.png"
+                            src="/assets/images/what-we-are.webp"
                             alt="About Adstories - Team at work"
                             width={480}
                             height={360}

@@ -148,29 +148,29 @@ export default function Footer() {
                         <div className="flex items-start space-x-3">
                             <FaMapMarkerAlt className="mt-1 text-[#f7f7f7]" />
                             <p className="text-sm book-font leading-relaxed">
-                                1234 Market Street,
+                                Amcw26/591,26/592,26/593, Ground Floor,
                                 <br />
-                                Suite 500,
+                                Konginichudukadu, Jn, Thiruvambady, Thirumala,
                                 <br />
-                                San Francisco, CA 94103
+                                Alappuzha, Kerala 688011
                             </p>
                         </div>
                         <div className="flex items-center space-x-3">
                             <FaEnvelope className="text-[#f7f7f7]" />
                             <a
-                                href="mailto:hello@adsstories.com"
+                                href="mailto:adstories.in@gmail.com"
                                 className="text-sm book-font hover:text-white hover:underline transition-all"
                             >
-                                hello@adsstories.com
+                                adstories.in@gmail.com
                             </a>
                         </div>
                         <div className="flex items-center space-x-3">
                             <FaPhone className="text-[#f7f7f7]" />
                             <a
-                                href="tel:+1234567890"
+                                href="tel:+918714327665"
                                 className="text-sm book-font hover:text-white hover:underline transition-all"
                             >
-                                +1 (234) 567-890
+                                +91 8714327665
                             </a>
                         </div>
                     </div>
