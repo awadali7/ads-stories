@@ -1,11 +1,11 @@
 import React from "react";
 import ServiceCard from "../home/_components/ServiceCard";
-import Header from "@/components/ui/Header";
+import HeaderMinimal from "@/components/ui/HeaderMinimal";
 
 const ServicesPage = () => {
     return (
         <>
-            <Header />
+            <HeaderMinimal />
             <section className="bg-[#12110c] py-12 sm:py-14 md:py-16 lg:py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 text-center">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white">

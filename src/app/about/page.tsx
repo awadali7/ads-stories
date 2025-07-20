@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import Header from "@/components/ui/Header";
+
 import MissionVisionSection from "./_components/MissionVisionSection";
 import LocationSection from "./_components/LocationSection";
+import HeaderMinimal from "@/components/ui/HeaderMinimal";
 
 const AboutPage = () => {
     return (
         <>
-            <Header />
+            <HeaderMinimal />
             <section className="bg-[#12110c] py-12 sm:py-16 md:py-20">
                 <div className="max-w-2xl mx-auto px-4 sm:px-6 md:px-8 text-center">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white">

@@ -172,3 +172,28 @@ body {
 .animate-scroll-left:hover {
     animation-play-state: paused;
 }
+
+/* Custom Slick Slider Styles */
+.slick-slider {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex !important;
+    align-items: center;
+}
+
+.slick-slide {
+    height: auto;
+}
+
+.slick-slide > div {
+    height: 100%;
+}
+
+/* Remove default Slick arrows and dots */
+.slick-prev,
+.slick-next,
+.slick-dots {
+    display: none !important;
+}
