@@ -80,7 +80,7 @@ export default function RootLayout({
                 className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
             >
                 <a
-                    href="https://wa.me/919995519522?text=Hi%21%20I%20just%20visited%20your%20website%20and%20I%27m%20interested%20in%20your%20digital%20marketing%20services.%20Can%20you%20tell%20me%20more%3F"
+                    href="https://wa.me/918714327665?text=Hi%21%20I%20just%20visited%20your%20website%20and%20I%27m%20interested%20in%20your%20digital%20marketing%20services.%20Can%20you%20tell%20me%20more%3F"
                     className="btn-whatsapp-pulse"
                 >
                     <IoLogoWhatsapp />
