@@ -158,10 +158,10 @@ export default function Footer() {
                         <div className="flex items-center space-x-3">
                             <FaEnvelope className="text-[#f7f7f7]" />
                             <a
-                                href="mailto:adstories.in@gmail.com"
+                                href="mailto:adstores.in@gmail.com"
                                 className="text-sm book-font hover:text-white hover:underline transition-all"
                             >
-                                adstories.in@gmail.com
+                                adstores.in@gmail.com
                             </a>
                         </div>
                         <div className="flex items-center space-x-3">

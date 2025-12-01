@@ -27,10 +27,10 @@ const ContactDetails = () => (
             <div>
                 <h2 className="text-lg font-bold text-[#12110c] mb-1">Email</h2>
                 <a
-                    href="mailto:adstories.in@gmail.com"
+                    href="mailto:adstores.in@gmail.com"
                     className="text-base book-font text-[#12110c] hover:underline"
                 >
-                    adstories.in@gmail.com
+                    adstores.in@gmail.com
                 </a>
             </div>
         </div>
